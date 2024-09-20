@@ -4,6 +4,10 @@ PSQL="psql --username=freecodecamp --dbname=worldcup --no-align --tuples-only -c
 
 # Do not change code above this line. Use the PSQL variable above to query your database.
 
+#########################################################################
+# Build a Worldcup Database - Queries - 2024-09-20 - All tests passed
+#########################################################################
+
 echo -e "\nTotal number of goals in all games from winning teams:"
 echo "$($PSQL "SELECT SUM(winner_goals) FROM games")"
 
@@ -44,7 +48,7 @@ echo "$($PSQL "SELECT teams.name FROM games
                WHERE year = 2014 AND round = 'Eighth-Final'
                ORDER BY name
      ")"
-     
+
 echo -e "\nList of unique winning team names in the whole data set:"
 echo "$($PSQL "SELECT DISTINCT(name) FROM teams JOIN games ON teams.team_id = games.winner_id ORDER BY name")"
 
