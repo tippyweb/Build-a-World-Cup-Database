@@ -10,7 +10,7 @@ fi
 # Do not change code above this line. Use the PSQL variable above to query your database.
 
 #########################################################################
-# Build a Worldcup Database - 2024-09-20
+# Build a Worldcup Database - 2024-09-20 - All tests passed
 #########################################################################
 
 # # Script to insert data from games.csv into worldcup database
