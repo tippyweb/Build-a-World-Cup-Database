@@ -5,6 +5,10 @@
 -- Dumped from database version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 -- Dumped by pg_dump version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 
+--######################################################################################
+--# Build a Worldcup Database - 2024-09-20 - All tests passed - Submitting on 2024-09-21
+--######################################################################################
+
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
